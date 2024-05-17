@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+    
+    background-image: linear-gradient(45deg, #FEFD48, #DF852C);
+    background-attachment: fixed;
+}
+
+h1#h1menor {
+    font-size: 20px;
+}
+
+header {
+    background-color: #44E066;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    width: 600px;
+    font-family: 'Rubik Mono One', Times, serif;
+}
+
+header > a {
+    font-family: 'Poetsen One', Times, serif;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+header > a:hover {
+    text-decoration: underline;
+    background-color: gold;
+}
+
+main {
+    background-color: #44E066;
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Rubik Mono One', Times, serif;
+}
+
+h3 {
+    font-family: 'Poetsen One';
+}
+
+h1#principal {
+    font-size: xx-large;
+    
+}
+
+p {
+    font-family: 'Poetsen One', times, serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0,6);
+}
+
+footer > div > a {
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid white;
+    font-family: 'Poetsen One', Times, serif;
+}
+
+div#footer {
+    background-color: #20662f;
+    padding: 1px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 4px solid #20662f;
+    width: 600px;
+    text-decoration: none;
+}
+
+footer {
+    width: 650px;
+    margin: auto;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+
+ a:hover {
+    text-decoration: underline;
+    background-color: gold;
+}
+
+div {
+    background-color: #20662f;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 4px solid black;
+    width: 675px;
+}
+
+img {
+    width: 550px;
+    padding: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
