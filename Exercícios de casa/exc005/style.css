@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+:root {
+    --cor0: #D9AD77;
+    --cor1: #05DBF2;
+    --cor2: #0378A6;
+
+    --fonte-destaque: 'Rubik Mono One', Times, serif;
+    --fonte-principal: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(45deg, yellow, red);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: lightcyan;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 1000px;
+    font-family: var(--fonte-principal);
+    
+}
+
+main h1#principal {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+}
+
+main h1 {
+    font-size: 2em;
+}
+
+main h2 {
+    font-size: 1.5em;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
