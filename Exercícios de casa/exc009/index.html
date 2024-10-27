@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(lightgray);
+            text-align: center;
+
+        }
+
+        div {
+            width: 500px;
+            height: 280vh;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        iframe#repositório-guanabara {
+            width: 400px;
+            height: 400px;
+            border: 2px solid red;
+            border-radius: 10px;
+        }
+
+        iframe#páginalocal {
+            width: 400px;
+            height: 400px;
+            border: 2px solid blue;
+            border-radius: 10px;
+        }
+
+        iframe#pastadiferente {
+            width: 400px;
+            height: 400px;
+            border: 2px solid green;
+            border-radius: 10px;
+        }
+
+        li {
+            text-align: left;
+        }
+
+        hr {
+            padding-top: 0px;
+        }
+
+        p#nome {
+            padding-bottom: 0px;
+            font-size: small;
+            text-align: left
+            ;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Iframes</h1>
+        <p id="nome">Feito por Daniel Rici da Silva</p>
+        <hr>
+    <p>Um iframe é uma caixa que permite que você coloque um site dentro do outro e ele também permite que você mexa no site que está na parte interna. Você pode ter vários tipos de iframe, como em um site local, de outra pessoa ou em outra pasta. O iframe é colocado com a tag iframe.</p>
+    <p>O primeiro tipo de iframe que vamos conhecer é o iframe de um site de outra pessoa. Para fazê-lo, você precisa colocar, no parâmetro "src" da tag, o nome do site que você quer colocar. Aqui está um exemplo de iframe de um site de outra pessoa:</p>
+    <iframe id="repositório-guanabara" src="https://gustavoguanabara.github.io/" frameborder="0"></iframe>
+    <p>Como você pode ver, você pode mexer no iframe.</p>
+    <p>O próximo tipo é o iframe local. Para fazer ele, você precisa colocar no parâmetro src o nome do arquivo.html, em vez da url do site de outra pessoa. Agora, aqui está um exemplo de um iframe local:</p>
+    <iframe id="páginalocal" src="index2.html" frameborder="0"></iframe>
+    <p>O último tipo de iframe é quando ele não está na mesma pasta dos outros arquivos. Isso pode ser feito apenas por trocando o parâmetro src, colocando a pasta que ele está/ o nome do arquivo. Se o caminho do arquivo e os outros for muito grande, será necessário colocar o caminho inteiro no src.</p>
+    <p>Aqui está um iframe gerado em uma outra pasta:</p>
+    <iframe id="pastadiferente" src="Página dentro da pasta/index3.html" frameborder="0"></iframe>
+    <p>A personalização dos iframes depende dos <strong>parâmetros</strong> que você coloca dentro do iframe. Aqui estão os mais usados:
+    
+        <ul>
+            <li>    src: usado para colocar o link do site que você quer usar.</li>
+            <li>    frameborder: só tem 2 valores binários. É usado para colocar uma borda em volta do iframe e pode ser substituido pelo CSS.</li>
+            <li>    scrolling: é usado para definir se o iframe vai ter barra de rolagem ou não. Tem 2 valores,  yes e no, yes quer dizer que mesmo que o site caiba na iframe, vai ter barra de rolagem e no, que mesmo que o site seja maior do que o iframe, não vai ter barra de rolagem.</li>
+        </ul>
+    </p>
+    </div>
+</body>
+</html>
