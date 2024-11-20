@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 10px;  
+}
+
+body { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20pt;
+
+    margin: auto;
+    min-width: 250px;
+    max-width: 768px; 
+
+    background-image: linear-gradient(blue, lightblue);
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+
+    border-radius: 10px;
+
+    background-color: rgba(255, 255, 255, 0.255);
+}
+
+header > menu > ul > li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+
+    background-color: lightgray;
+}
+
+header > menu > ul > li > a {
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+
+    color: white;
+}
+
+header > menu > ul > li > a:hover {
+    text-decoration: underline;
+    color: rgba(159, 159, 159, 0.625);
+}
+
+main > article {
+    background-color: rgba(255, 255, 255, 0.255);
+    border-radius: 10px;
+}
+
+main > article > p {
+    font-size: 15pt;
+}
+
+main > article > img#logo {
+    width: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+main > form {
+    background-color: rgba(255, 255, 255, 0.255);
+    border-radius: 10px;
+}
+
+main > form > input {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+main > form > input[type="submit"], input[type="reset"] {
+    background-color: rgb(5, 182, 5);
+}
+
+main > form > input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: rgb(40, 230, 40);
+}
